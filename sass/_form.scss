@@ -1,0 +1,143 @@
+.form-group.row {
+	margin: 0 -3px;
+	.block-input.col {
+		padding: 0 3px;
+		margin-bottom: 10px;
+	}
+}
+.block-input {
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+	input,  textarea {
+		background: transparent;
+		font-weight: 400;
+		font-size: 1.3rem;
+		color: #fff;
+		display: block;
+		width: 100%;
+		padding: 0 10px 0 15px;
+		-webkit-transition: background 0.3s ease-in-out,border-color 0.3s ease-in-out,color 0.3s ease-in-out;
+		transition: background 0.3s ease-in-out,border-color 0.3s ease-in-out,color 0.3s ease-in-out;
+		border-radius: 5px;
+		border: 1px solid #fff;
+	}
+	input {
+		height: 40px;
+		line-height: 39px;
+	}
+	textarea {
+		text-align: left;
+		min-height: 140px;
+		max-height: 140px;
+		min-width: 100%;
+		max-width: 100%;
+		padding: 14px 10px 10px 15px;
+	}
+	input:hover, input:focus, textarea:hover, textarea:focus {
+		background: transparent;
+	}
+	.error {
+		border-color: #c00;
+		color: #c00;
+	}
+	/* .valid[required] {
+		border-color: #238923;
+	} */
+	.valid {
+		border-color: #238923;
+	}
+	.no-required {
+		border-color: #fff;
+	}
+	input + label.valid {
+		color: #238923;
+	}
+	input + label {
+		display: block;
+		width: 100%;
+		text-align: left;
+		margin-top: 0.3rem;
+	}
+}
+
+.form-button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 23px;
+}
+
+.form-button .form-button__one, .form-button .form-button__second {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.form-button .form-button__second {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 135px;
+	flex: 0 0 135px;
+	max-width: 135px;
+}
+
+.form-button .form-button__second .btn {
+	width: 100%;
+	height: 38px;
+	line-height: 37px;
+}
+.form-button .form-button__second span {
+	color: #ccc;
+}
+::-webkit-input-placeholder {
+	font-size: 1.4rem;
+	font-family: 'Lato', sans-serif;
+	color: #ccc;
+	opacity: 1;
+	transition: all 0.3s ease;
+}
+:-moz-placeholder {
+	font-size: 1.4rem;
+	font-family: 'Lato', sans-serif;
+	color: #ccc;
+	opacity: 1;
+	transition: all 0.3s ease;
+}
+::-moz-placeholder {
+	font-size: 1.4rem;
+	font-family: 'Lato', sans-serif;
+	color: #ccc;
+	opacity: 1;
+	transition: all 0.3s ease;
+}
+:-ms-input-placeholder {
+	font-size: 1.4rem;
+	font-family: 'Lato', sans-serif;
+	color: #ccc;
+	opacity: 1;
+	transition: all 0.3s ease;
+}
+
+/* :focus::-webkit-input-placeholder {
+	opacity: 0;
+}
+:focus:-moz-placeholder {
+	opacity: 0;
+}
+:focus::-moz-placeholder {
+	opacity: 0;
+}
+:focus:-ms-input-placeholder {
+	opacity: 0;
+} */

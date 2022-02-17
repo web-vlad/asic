@@ -1,0 +1,72 @@
+//  links transition
+@mixin link-transition() {
+    transition: background 0.3s ease-in-out,border-color 0.3s ease-in-out,color 0.3s ease-in-out;
+}
+@mixin all-transition() {
+    transition: all 0.3s ease;
+}
+@mixin img-transition() {
+    transition: all 0.4s ease;
+}
+@mixin scale() {
+    transform: scale(1.1);
+}
+@mixin scale-all() {
+    transform: scale(0);
+}
+@mixin scale-all-hover() {
+    transform: scale(1);
+}
+@mixin scale-x() {
+    transform: scaleX(0);
+}
+@mixin scale-x-hover() {
+    transform: scaleX(1);
+}
+@mixin scale-y() {
+    transform: scaleY(0);
+}
+@mixin scale-y-hover() {
+    transform: scaleY(1);
+}
+@mixin transform-position() {
+    transform-origin: center center;
+}
+@mixin all-sprite() {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 50%;
+    left: 0;
+}
+@mixin pseudo() {
+    position: absolute;
+    display: block;
+    content: "";
+}
+@mixin all-pseudo() {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+@mixin sprite-pseudo() {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 50%;
+    left: 0;
+}
+@mixin box-img() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// ANIME
+@mixin anim-img() {
+    animation: bounce 1s;
+}

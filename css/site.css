@@ -1,0 +1,24 @@
+.return-problem {
+height: 290px !important;
+}
+
+table.price-table{width:100%;text-align:left;}
+table.price-table td{line-height:1;padding:16px;}
+table.price-table .price-table-right{width:25%;}
+tr.price-table-first td{line-height:1;padding-left:1rem;font-size:1.4em;color:#D22063;background-color:transparent!important;}
+table.price-table td, table.price-table tr{border-bottom:#D22063 solid;border-bottom-width:1px;border-spacing:0;}
+table.price-table td{line-height:1.1;font-size:14px;}
+table.price-table td .cb-hover{font-size: 14px;}
+
+.tooltip {
+    z-index: 10000000;
+}
+
+@media only screen and (max-width: 520px) {
+    .repair .apple-service .item .image img {
+        height: 100px;
+    }
+    .repair .return-problem {
+        height: 310px !important;
+    }
+}

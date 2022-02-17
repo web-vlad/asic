@@ -1,0 +1,19 @@
+.footer {
+    background: #0d2f5c;
+    color: #fff;
+    position: relative;
+    flex: 0 0 auto;
+    padding: 14px 0;
+    margin-top: 3.5rem;
+    .row {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+@media (max-width: 991px) {
+
+}
