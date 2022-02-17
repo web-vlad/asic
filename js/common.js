@@ -36,8 +36,8 @@ $(document).on('click','.bg-show',function () {
   return false;
 });
 
+// slider content
 $(function () {
-    // slider banner
     $('.slider-repair').slick({
       infinite: true,
       slidesToShow: 1,
@@ -54,21 +54,9 @@ $(function () {
 
 });
 
-$(document).on('click', '[data-toggle="modal"]', function(e) {
-    var target = $(this).attr('data-target');
-    e.preventDefault();
-      //console.log(target);
-    $(target).addClass('show');
-    return false;
+/* $('.js-modal').click(function() {
+    $('body').toggleClass('modal-open');
 });
-$('.modal .close').on('click', function () {
-    $(this).closest('.modal').removeClass('show');
-    return false;
-});
-$('.modal').on('click', function(e) {
-  $(this).removeClass('show');
-});
-$('.modal .modal-dialog').click(function(e) {
-  e.stopPropation();
-});
-
+$('.close-reveal-modal, .reveal-modal-bg').click(function() {
+    $('body').toggleClass('modal-open');
+});  */
